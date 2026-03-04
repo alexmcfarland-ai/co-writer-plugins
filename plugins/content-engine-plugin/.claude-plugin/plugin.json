@@ -1,0 +1,9 @@
+{
+  "name": "content-engine",
+  "version": "0.1.0",
+  "description": "Turn one idea into dozens of content pieces — extract ideas, repurpose across platforms, plan your calendar, and define your content pillars.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}

@@ -8,7 +8,52 @@
     {
       "name": "youtube",
       "source": "./plugins/youtube-plugin",
-      "description": "Complete YouTube content creation suite — write scripts, descriptions, companion newsletters, and title options informed by your context files."
+      "description": "Write YouTube scripts, descriptions, companion newsletters, and click-worthy titles — all informed by your voice and audience."
+    },
+    {
+      "name": "newsletter",
+      "source": "./plugins/newsletter-plugin",
+      "description": "Write authority newsletters, how-to guides, case studies, and more — each skill produces a specific newsletter format ready to publish."
+    },
+    {
+      "name": "social",
+      "source": "./plugins/social-plugin",
+      "description": "Create high-performing social content — threads, LinkedIn posts, Substack notes, batched content, and endless content ideas from a single topic."
+    },
+    {
+      "name": "ghostwriting",
+      "source": "./plugins/ghostwriting-plugin",
+      "description": "Set up a complete co-writer system for your ghostwriting clients — build their profiles, capture their voice, map their IP, and plan their content."
+    },
+    {
+      "name": "offer-builder",
+      "source": "./plugins/offer-builder-plugin",
+      "description": "Build irresistible offers, sales pages, email sequences, and lead magnets for digital products and services."
+    },
+    {
+      "name": "brand",
+      "source": "./plugins/brand-plugin",
+      "description": "Optimize your professional presence — social bios, LinkedIn profile, brand audits, and elevator pitches."
+    },
+    {
+      "name": "content-engine",
+      "source": "./plugins/content-engine-plugin",
+      "description": "Turn one idea into dozens of content pieces — extract ideas, repurpose across platforms, plan your calendar, and define your content pillars."
+    },
+    {
+      "name": "freelance",
+      "source": "./plugins/freelance-plugin",
+      "description": "Win and manage client work — proposals, scopes of work, progress reports, cold pitches, and case studies."
+    },
+    {
+      "name": "course-creator",
+      "source": "./plugins/course-creator-plugin",
+      "description": "Build and launch online courses — structure your curriculum, write lessons, create sales pages, and plan your launch sequence."
+    },
+    {
+      "name": "presentations",
+      "source": "./plugins/presentations-plugin",
+      "description": "Create polished slide decks — presentation builder, pitch decks, and workshop slides."
     }
   ]
 }

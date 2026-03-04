@@ -1,0 +1,9 @@
+{
+  "name": "freelance",
+  "version": "0.1.0",
+  "description": "Win and manage client work — proposals, scopes of work, progress reports, cold pitches, and case studies.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
