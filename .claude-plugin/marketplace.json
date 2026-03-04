@@ -1,0 +1,14 @@
+{
+  "name": "co-writer-system",
+  "owner": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  },
+  "plugins": [
+    {
+      "name": "youtube",
+      "source": "./plugins/youtube-plugin",
+      "description": "Complete YouTube content creation suite — write scripts, descriptions, companion newsletters, and title options informed by your context files."
+    }
+  ]
+}
