@@ -7,9 +7,9 @@ description: Write Substack newsletters that accompany YouTube videos. Use when 
 Before executing this skill, read the following files from the project folder if they exist:
 
 1. **USER.md** — who the user is, how they think, how they work, what they care about
-2. **BUSINESS.md** — their business, products, positioning, brand voice, content strategy
+2. **BUSINESS.md** — their business, products, positioning, brand voice, content strategy, social links, sign-off
 3. **ICP.md** — their ideal customer, their language, their fears, what makes them buy
-4. **Voice skill** — if the user has a voice skill installed globally in Claude Desktop, it will be auto-loaded. Do not attempt to read it as a file path.
+4. **Voice or brand voice skill** — look for any installed skill related to voice, tone, or brand voice and apply it automatically
 5. Any additional context provided by the user in this session
 
 Use all of this context silently to inform everything you produce. Do not reference or summarize the files unless asked.
@@ -22,7 +22,7 @@ Write a concise Substack newsletter that accompanies a YouTube video. The newsle
 
 ## Voice
 
-Follow the voice-profile-alex skill if available. If not: direct, confident, no fluff. Write like the smart cousin who figured this out, not a guru or a marketer.
+Apply any voice or brand voice skill if installed. Otherwise pull tone direction from BUSINESS.md. If neither is available: direct, confident, no fluff. Write like the smart friend who figured this out, not a guru or a marketer.
 
 ## Input
 
@@ -77,16 +77,16 @@ What's inside:
 - **[Item 3]** — what it does
 - **[Item 4]** — what it does
 
-[1 sentence on how to use it. "Download the zip and drag it into X to install."]
+[1 sentence on how to use it.]
 
 ---
 
 [2-3 sentence closer. Acknowledge it's early/new if relevant. Reinforce the direction. Tell them to start now.]
 
-_—Alex_
+_—[Name from BUSINESS.md or USER.md]_
 
 **Stay connected**
-[Twitter/X](https://x.com/mcfarland_ai) · [Instagram](https://instagram.com/alexxmcfarland)
+[Social links from BUSINESS.md]
 ```
 
 ## Rules
@@ -98,9 +98,9 @@ _—Alex_
 5. **No "Start here" steps.** The resource section IS the action.
 6. **No subject line options block.** Just write the title.
 7. **Resource callout appears twice** — once at the very top (teaser) and once in the middle (full breakdown with link).
-8. **Double horizontal rules** (`---\n\n---`) after the paid member callout. This is Alex's formatting pattern.
+8. **Double horizontal rules** (`---\n\n---`) after the paid member callout.
 9. **Outcomes list uses bold + dash clarification.** Keep clarifications to one line.
-10. **Closer is 2-3 sentences max.** Sign off with `_—Alex_`.
+10. **Closer is 2-3 sentences max.** Sign off with the user's name from their context files.
 11. **Tone is direct and practical.** No hype, no "game-changer," no "unlock the power of."
 
 ## What NOT to Do
@@ -111,7 +111,3 @@ _—Alex_
 - Don't use tables — use bullet lists
 - Don't write more than 600 words
 - Don't add meta-commentary like word counts or stats at the end
-
-## Reference
-
-Compare output against: `alex/substack/newsletters/2026-02-03-claude-cowork-plugins.md` — this is Alex's actual published newsletter and the gold standard for format and length.
